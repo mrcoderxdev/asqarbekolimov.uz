@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Inter:wght@200;300;400;500;800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,200;1,300;1,400;1,500;1,600;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,800;1,400;1,500;1,600;1,700&family=Radio+Canada:wght@300;400;500;600&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,200;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,900&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body{
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 #container{
   display: flex;
@@ -53,6 +54,7 @@ body{
   letter-spacing: 5px;
   position: relative;
   text-decoration: none;
+  font-family: 'Clicker Script', cursive;
 }
 ul{
   list-style: none;
@@ -71,6 +73,10 @@ li a{
   color: #302e4d;
   padding: 6px 15px;
   text-decoration: none;
+}
+
+li a i{
+  margin-right: 18px;
 }
 
 .container{
@@ -123,13 +129,14 @@ section .container{
   font-size: 33px;
   font-weight: 700;
   color: #ec1839;
+  font-family: 'Clicker Script', cursive;
 }
 .home__info .my-profession{
   font-size: 30px;
   margin: 15px 0;
 }
 .home__info p{
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   margin-bottom: 60px;
   color: #504e70;
@@ -366,6 +373,9 @@ h3.title{
   margin-bottom: 12px;
   color: #504e70;
 }
+.timeline-data i{
+  margin-right: 13px;
+}
 .timeline-title{
   font-weight: 700;
   font-size: 18px;
@@ -400,6 +410,12 @@ h3.title{
   margin: 0 auto 30px;
   text-align: center;
   transition: all 0.7 ease;
+}
+.icon i{
+  font-size: 40px;
+  line-height: 60px;
+  color: #ec1839;
+  transition: all 0.3s ease;
 }
 .service-item-inner h4{
   font-size: 18px;
