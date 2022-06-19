@@ -50,7 +50,7 @@ window.addEventListener("DOMContentLoaded", () => {
   })
 
   const navTogglerBtn = document.querySelector(".nav-toggler"),
-      aside = document.querySelector(".aside");
+      aside = document.querySelector(".aside-container");
       navTogglerBtn.addEventListener("click", () => {
           asideSectionTogglerBtn();
       })
