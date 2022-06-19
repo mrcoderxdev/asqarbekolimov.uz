@@ -53,4 +53,11 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
+    .home__info, .home__img, .service-item{
+      flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .home__img{
+      margin-top: 95px;
+    }
 }
